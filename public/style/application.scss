@@ -1,0 +1,45 @@
+﻿.body {
+    background: #fff;
+    color: #22296c;
+    font-family:sans-serif;
+}
+.align-left{
+    text-align:left;
+}
+.align-right{
+    text-align:right;
+}
+.align-center{
+    text-align:center;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+   
+}
+ul{
+    list-style-type:none;
+}
+a,a:hover {
+    color: #22296c;
+}
+a:visited{
+    text-decoration:none;
+}
+.nopadding{
+    padding:0 !important;
+}
+.noleftpadding {
+    padding-left: 0 !important;
+}
+.norightpadding {
+    padding-right: 0 !important;
+}
+
+$apricot: #ffc266;
+$soft-grape: #ad5cad;
+@import '_header';
+@import '_nav';
+
+@import '_contact-details';
+

@@ -1,0 +1,36 @@
+﻿.sidebar {
+    position: absolute;
+    width: 20%;
+    background:$apricot;
+    height: 100%;
+
+    .search-box {
+        border-radius: 0.75rem;
+    }
+
+    nav {
+        background: $apricot;
+
+        ul {
+            padding: 5% 0;
+
+            li {
+                &:first-child {
+                    padding: 10% !important;
+                }
+
+                &.nav-item {
+                    padding: 5%;
+                    border-bottom: 1px solid $soft-grape;
+                }
+            }
+        }
+    }
+}
+.nav-table {
+    border: 1px solid $apricot;
+}
+.active{
+    background:$soft-grape;
+   
+}

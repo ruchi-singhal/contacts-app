@@ -1,0 +1,17 @@
+﻿.header {
+    
+    background: $soft-grape;
+    position:absolute;
+    left:20%;
+    width:80%;
+    height:12vh;
+   
+    .login-user{
+        padding:3%;
+    }
+}
+@media (max-width:1023px){
+    .header{
+        height:6vh;
+    }
+}

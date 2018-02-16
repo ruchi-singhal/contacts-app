@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Contacts</title>
+    <!--Stylesheet Reference-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--<link rel="stylesheet" href="lib/font-awesome/font-awesome.min.css" />-->
+    <!--<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <script src="lib/font-awesome/font-awesome.js"></script>-->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+   
+    <link rel="stylesheet" href="style/application.css" />
+
+    <!--JS files reference-->
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <!--<script src="lib/font-awesome/font-awesome.js"></script>-->
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <!--<script src="config.js"></script>-->
+    <script src="config.js"></script>
+    <script src="src/service.js"></script>
+    <script src="src/headerController.js"></script>
+    <script src="src/navController.js"></script>
+    
+    <script src="src/contactDetailsController.js"></script>
+</head>
+<body ng-app="contactsApp">
+    <div id="contacts">
+        <aside class="container sidebar nopadding" ng-include="'views/nav.html'"></aside>
+        <section class="header flex-center" ng-include="'views/header.html'"></section>
+        
+        <main>
+            <div ui-view></div>
+        </main>
+    </div>
+   
+    
+</body>
+</html>

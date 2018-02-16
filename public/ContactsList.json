@@ -1,0 +1,56 @@
+﻿{
+  "contacts" : [
+    {
+      "id": "1",
+      "name": "Andrew Amernante",
+      "likes": [ "Dogs", "Long walks on the beach", "Chopin", "Tacos" ],
+      "dislikes": [ "Birds", "Red things", "Danish food", "Dead batteries" ],
+      "pic": "andrew1.png",
+      "rating": "4",
+      "desc": "Likes gluten free and is a vegan"
+
+    },
+    {
+      "id": "2",
+      "name": "Frank Wang",
+      "likes": [ "Cats", "Mountains", "Movies", "Playing sports" ],
+      "dislikes": [ "Animals", "Cricket", "Netflix shows" ],
+      "pic": "frank2.png",
+      "rating": "5",
+      "desc": "Likes to wander on the streets with no purpose"
+
+    },
+    {
+      "id": "3",
+      "name": "Sissi Chen",
+      "likes": [ "Travelling", "Reading books", "Take his dog on a walk" ],
+      "dislikes": [ "Watching TV", "Red Meat" ],
+      "pic": "sisi3.jpg",
+      "rating": "3",
+      "desc": "Likes to read boigraphies and non-fiction books"
+
+    },
+    {
+      "id": "4",
+      "name": "Diego Garcia",
+      "likes": [ "Elephants", "angularjs", "chinese food" ],
+      "dislikes": [ "rework", "sitting idle", "crocodiles" ],
+      "pic": "diego4.jpg",
+      "rating": "2",
+      "desc": "Likes to go out with friends"
+
+    },
+    {
+      "id": "5",
+      "name": "Fuad Rashid",
+      "likes": [ "Beaches", "Mountains", "Serene environment" ],
+      "dislikes": [ "Too much noise", "City Life" ],
+      "pic": "fuad5.png",
+      "rating": "5",
+      "desc": "Likes to laze around in a pool"
+
+    }
+  ]
+}
+
+

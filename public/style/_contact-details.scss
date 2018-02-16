@@ -1,0 +1,52 @@
+﻿.details-section {
+    left: 20%;
+    padding: 5%;
+    position: absolute;
+    width: 80%;
+    top:12vh;
+
+    .message {
+        padding-left: 4%;
+    }
+
+    .profile-pic {
+        img {
+            width: 14rem;
+        }
+    }
+
+    .profile-desc {
+        border: 2px solid $soft-grape;
+        padding: 2%;
+        overflow: auto;
+    }
+
+    .likes-dislikes {
+        display: flex;
+
+        table {
+            border: 1px solid $soft-grape;
+            border-bottom: 1px solid $soft-grape;
+
+            th {
+                background: $apricot;
+
+                &.heading {
+                    font-weight: 600;
+                    font-size: 1rem;
+                }
+            }
+
+            td {
+                padding: 2%;
+                width: 20% ;
+                border-bottom: 1px solid $soft-grape;
+            }
+        }
+    }
+}
+@media (max-width:1023px){
+    .details-section{
+        top:6vh;
+    }
+}

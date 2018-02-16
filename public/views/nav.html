@@ -1,0 +1,12 @@
+﻿<nav ng-controller="navCtrl">
+    <div class="">
+         <ul>
+            <li class="nav-item align-center">
+                <input type="text" class="form-control search-box" ng-model="searchedContact" placeholder="Search"/>
+            </li>
+            <li class="nav-item" ng-repeat="contact in contacts|filter:searchedContact" ui-sref-active="active">
+                <a ui-sref="contactdetails({id:{{contact.id}}})">{{contact.name}}</a>
+            </li>
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,54 @@
+﻿<div class="details-section">
+    <div class="container" ng-controller="detailsCtrl">
+        <div class="row form-group">
+            <div class="col-4 col-lg-3 profile-pic">
+                <img ng-src="{{profileImg}}" />
+            </div>
+            <div class="col-8 col-lg-9 flex-center">
+                <div class="message">
+                <div class="form-group"><button class="btn btn-primary">Send Message</button></div>
+                <div class="contactRating">
+
+                    <i class="fas fa-heart" ng-repeat="contactRating in contactRatings"></i>
+
+                    <i ng-repeat="noRating in noRatings" class="far fa-heart"></i>
+                </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row form-group">
+            <div class="col-12">
+               <div class="profile-desc"> {{desc}}</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="likes-dislikes">
+                <div class="col-6 align-center norightpadding">
+                    <table class="nopadding">
+                       <tr> <th class="heading">Likes</th></tr>
+                       <tr ng-repeat="like in likes"><td >{{like}}</td></tr>
+                    </table>
+
+                </div>
+                <div class="col-6 align-center noleftpadding">
+                    <table class="nopadding">
+                       <tr><th class="heading">Disikes</th></tr>
+                          <tr ng-repeat="dislike in dislikes">
+                              <td>
+                                  {{dislike}}
+
+                              </td>
+                          </tr>
+                        
+
+                    </table>
+                </div>
+            </div>
+       
+
+
+        </div>
+      
+    </div>
+</div>
